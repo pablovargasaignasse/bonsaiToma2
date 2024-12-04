@@ -19,3 +19,29 @@
   padding: 5px;
   border: 2px solid rgb(7, 8, 4);
 }
+
+.logo img{
+  height: 150px;
+  width: 150px;
+}
+.logoredes img {
+  width: 40px;
+  height: 40px;
+}
+
+.redes {
+  width: 170px;
+}
+
+@media (max-width: 500px) {
+  section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+    .mapa {
+      width: 100%;
+  }
+}
